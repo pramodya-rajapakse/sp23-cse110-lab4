@@ -1,0 +1,2 @@
+1. The bug is that the 'num1' and 'num2' variables contain string values. So when 'calculateSum(num1, num2)' is called, the 'result' variable will contain the concatenation of the strings 'num1' and 'num2', instead of their integer values as intended.
+2. One way to fix this bug is to convert the string values of 'num1' and 'num2' into their integer counterparts by using the 'Number()' function when initializing the value of 'result' on line 11. This way, 'result' will contain the integer addition value of 'num1' and 'num2'.
