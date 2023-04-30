@@ -19,7 +19,7 @@
     6.  F. 0, since the value of false maps to the integer 0, and the value of null becomes the integer 0, which sums to 0
     7.  G. '3undefined', since undefined becomes itself as a string which is concatented to the string '3'
     8.  H. NaN, since '3' becomes its integer representation and tries to subtract the integer value of undefined which is NaN
-14. d
+14. 
     1. A. true, since the integer representation of '2' is 2 which is greater than the integer 1
     2. B. false, since the string '2' is greater than the string '12' (since it starts with a high char value)
     3. C. true, since the string '2' becomes its integer value 2
